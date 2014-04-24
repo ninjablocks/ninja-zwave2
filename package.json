@@ -1,0 +1,26 @@
+{
+  "name": "ninja-zwave2",
+  "version": "0.0.1",
+  "description": "Ninja Blocks driver for interacting with Z-Wave Devices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ninjablocks/ninja-zwave2.git"
+  },
+  "keywords": [
+    "Z-Wave",
+    "Ninja",
+    "Blocks"
+  ],
+  "author": "Elliot Shepherd <elliot@ninjablocks.com>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "underscore": "~1.6.0",
+    "openzwave": "0.0.32"
+  },
+  "config": {}
+}

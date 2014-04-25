@@ -1,6 +1,6 @@
 {
   "name": "ninja-zwave2",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Ninja Blocks driver for interacting with Z-Wave Devices",
   "main": "index.js",
   "scripts": {

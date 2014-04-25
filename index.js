@@ -56,8 +56,7 @@ Driver.prototype.init = function() {
   }.bind(this));
 
   this.zwave.on('value changed', function(nodeId, commandClass, v) {
-    console.log(v);
-      
+
     var device = this.nodes[nodeId].commands[commandClass][v.index].device;
     if (device) {
       device.onValue(v);
